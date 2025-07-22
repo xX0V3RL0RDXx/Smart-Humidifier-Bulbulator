@@ -1,27 +1,28 @@
-# Bulbulator – Smart Humidifier 💧
+# Bulbulator – Smart Humidifier Controller 💧
 
-The **Bulbulator** is a DIY smart air humidifier that automatically maintains a desired humidity level in your room. It uses a DHT11 sensor, two-button control, a 16x2 LCD display.
-
----
-
-## 🔧 How It Works
-
-1. Press **Button 1** to set the target humidity level (shown on the LCD).
-2. Press **Button 2** to confirm the selected level.
-3. The system continuously reads the current humidity from a **DHT11** sensor.
-4. If humidity drops below the set value, the humidifier is activated.
-5. Once the target level is reached, the device stops automatically.
-6. The **LCD** displays current and target humidity.
+This project is a simple DIY smart humidifier controller that keeps your room humidity at a desired level. It uses a DHT11 sensor to monitor humidity, a 16x2 LCD to display current and target values, and two buttons for setting the target humidity. The humidifier is switched on and off automatically via a relay or MOSFET.
 
 ---
 
-## ✨ Features
+## ❔ How It Works
 
-- 🖲️ Two-button interface for input and confirmation
-- 📟 16x2 LCD display for real-time data
-- 📉 Auto control based on live humidity readings
-- 🔁 Continuous monitoring and display refresh
-- ⚡ Power efficient and easy to build
+- Press **Button UP** to increase the target humidity value (displayed on LCD).
+- Press **Button SET** to confirm the target humidity.
+- The DHT11 sensor continuously reads the room humidity.
+- If the current humidity falls below the target, the humidifier is turned on.
+- Once the target humidity is reached, the humidifier turns off automatically.
+- The LCD shows the live humidity and the set target.
+
+---
+
+## ⭐Features
+
+- Simple two-button interface to set humidity target
+- Real-time display of current and target humidity on 16x2 LCD
+- Automatic humidifier control via relay or MOSFET
+- Easy to build and customize
+- Low power consumption — humidifier runs only when needed
+
 ---
 
 ## 🧰 Components
@@ -40,16 +41,14 @@ The **Bulbulator** is a DIY smart air humidifier that automatically maintains a 
 
  TO DO
 ---
-
-## 🚀 Getting Started
-
-1. Assemble components and wire everything to your microcontroller
-2. Upload the Arduino sketch using the Arduino IDE
-3. Power the system via USB or external supply
-4. Use Button 1 to select your desired humidity (e.g. 55%)
-5. Confirm with Button 2
-6. Monitor current and target humidity on the LCD
-7. Let the Bulbulator take care of the air! 🌫️
+## 🖥️ Usage
+1. Connect all components according to wiring.
+2. Upload the Arduino sketch using Arduino IDE.
+3. Power the system.
+4. Use **Button UP** to set your desired humidity target.
+5. Press **Button SET** to confirm.
+6. The Bulbulator will monitor the humidity and control the humidifier accordingly.
+7. Check current and target humidity on the LCD
 
 ---
 
