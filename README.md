@@ -1,4 +1,4 @@
-# Bulbulator – Smart Voice-Assisted Humidifier 💧🗣️
+# Bulbulator – Smart Humidifier 💧
 
 The **Bulbulator** is a DIY smart air humidifier that automatically maintains a desired humidity level in your room. It uses a DHT11 sensor, two-button control, a 16x2 LCD display.
 
