@@ -71,7 +71,8 @@ The humidifier is switched on and off automatically via a relay or NPN transisto
 ### ❌ Cons
 - **Sensor placement:** The DHT11 was mounted too close to the humidifier outlet, causing it to saturate with steam and give unreliable readings.  
 - **No hysteresis:** The control logic switches the humidifier on/off immediately at the threshold, leading to frequent toggling.  
-- **Power supply instability:** With a long USB power cable, the LCD sometimes lost power or flickered when the humidifier module turned on due to voltage drops.  
+- **Power supply instability:** With a long USB power cable, the LCD sometimes lost power or flickered when the humidifier module turned on due to voltage drops.
+- **No water level monitoring:** There’s no way to check the humidifier’s water level, which can lead to running dry.  
 
 ---
 
