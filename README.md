@@ -31,7 +31,7 @@ The humidifier is switched on and off automatically via a relay or NPN transisto
 
 - **Arduino Uno** – Microcontroller  
 - **DHT11** – Humidity and temperature sensor  
-- **16x2 LCD I²C** – Humidity display  
+- **16x2 LCD I2C** – Humidity display  
 - **NPN Transistor** – Controls humidifier power  
 - **Humidifier (DIY1 v2.0)** – Ultrasonic module  
 - **2x Push Buttons** – For setting and confirming humidity  
